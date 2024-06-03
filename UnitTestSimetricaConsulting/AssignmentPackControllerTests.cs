@@ -2,11 +2,8 @@
 using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
-using System.Collections.Generic;
 using TestSimetricaConsulting.Controllers.V1;
 using TestSimetricaConsulting.Model;
-using Xunit;
 
 namespace UnitTestSimetricaConsulting
 {

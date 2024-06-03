@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DataAccessPackage\DataAccessPackage.csproj" />
     <ProjectReference Include="..\DataAcessRepository\DataAcessRepository.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\Model\Domain.csproj" />
   </ItemGroup>
 

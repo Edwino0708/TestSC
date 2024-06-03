@@ -5,13 +5,13 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSimetricaConsulting", "TestSimetricaConsulting\TestSimetricaConsulting.csproj", "{4BB1735D-FF23-4763-8F65-C9942D2F6116}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Model\Domain.csproj", "{EE4D6CE1-0102-4CA9-A2A1-3D82EE75BFF5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAcessRepository", "DataAcessRepository\DataAcessRepository.csproj", "{D000A56A-2E27-4667-844A-49D1C7F1B116}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessPackage", "DataAccessPackage\DataAccessPackage.csproj", "{B2FC8C80-2D6B-4657-951E-3E8E627BB700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSimetricaConsulting", "UnitTestSimetricaConsulting\UnitTestSimetricaConsulting.csproj", "{EC712A5C-D32C-4B60-8769-2AD8A9729F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestSimetricaConsulting", "UnitTestSimetricaConsulting\UnitTestSimetricaConsulting.csproj", "{EC712A5C-D32C-4B60-8769-2AD8A9729F58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{F2B924DE-AE35-4E86-B313-44209374466C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{4BB1735D-FF23-4763-8F65-C9942D2F6116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB1735D-FF23-4763-8F65-C9942D2F6116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BB1735D-FF23-4763-8F65-C9942D2F6116}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE4D6CE1-0102-4CA9-A2A1-3D82EE75BFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE4D6CE1-0102-4CA9-A2A1-3D82EE75BFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE4D6CE1-0102-4CA9-A2A1-3D82EE75BFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE4D6CE1-0102-4CA9-A2A1-3D82EE75BFF5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D000A56A-2E27-4667-844A-49D1C7F1B116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D000A56A-2E27-4667-844A-49D1C7F1B116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D000A56A-2E27-4667-844A-49D1C7F1B116}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{EC712A5C-D32C-4B60-8769-2AD8A9729F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC712A5C-D32C-4B60-8769-2AD8A9729F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC712A5C-D32C-4B60-8769-2AD8A9729F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B924DE-AE35-4E86-B313-44209374466C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B924DE-AE35-4E86-B313-44209374466C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B924DE-AE35-4E86-B313-44209374466C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B924DE-AE35-4E86-B313-44209374466C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
